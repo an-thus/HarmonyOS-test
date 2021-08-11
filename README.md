@@ -15,6 +15,7 @@ feature：应用的动态特性模块。一个APP可以包含一个或多个feat
 
 # Ability
 Ability是应用所具备的能力的抽象，一个应用可以包含一个或多个Ability。Ability分为两种类型：FA（Feature Ability）和PA（Particle Ability）。FA/PA是应用的基本组成单元，能够实现特定的业务功能。FA有UI界面，而PA无UI界面。
+
 FA支持Page Ability：
 Page模板是FA唯一支持的模板，用于提供与用户交互的能力。一个Page实例可以包含一组相关页面，每个页面用一个AbilitySlice实例表示。
 
